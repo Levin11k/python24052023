@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clientes</title>
+  </head>
+  <body>
+    <!--  Encabezado y barra de navegación -->
+
+    <header class="encabezado" id="inicio">
+      <nav class="nav">
+        <div class="logo">
+          <img src="/img/logo2.jpg" alt="logo" />
+        </div>
+        <ul class="lista">
+          <a href="index.html#inicio"><li class="items active">Inicio</li></a>
+          <a href="index.html#productos"
+            ><li class="items" href="#">Productos</li></a
+          >
+          <a href="index.html#acercade"
+            ><li class="items" href="#">Acerca de</li></a
+          >
+          <a href="index.html#contacto"
+            ><li class="items" href="#">Contacto</li></a
+          >
+        </ul>
+
+        <div class="user-interactions">
+          <div class="carrito">
+            <i class="bi bi-cart"></i>
+            <span class="item-de-carrito">00</span>
+          </div>
+          <div class="user">
+            <i class="bi bi-person-circle"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Seccion de API para clientes ficticios -->
+
+    <section class="clientes">
+      <h3>Clientes:</h3>
+      <br />
+      
+      <ul id="clientes"></ul>
+    </section>
+
+    <!-- Seccion de pie para las redes sociales -->
+
+    <div class="footer-basic">
+      <footer>
+        <div class="social">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </div>
+        <hr />
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="clientes">Nuestros clientes</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="privacynotice.html">Privacy Notice</a>
+          </li>
+        </ul>
+        <p class="copyright">
+          Maquetado realizado para comisión N° 23014-Python
+        </p>
+      </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
